@@ -24,4 +24,9 @@
     .breadcrumb-item:last-child::before {
         display: none;   /* 隱藏中間項目 */
     }
+     ol.d-flex {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 }
+
