@@ -13,6 +13,8 @@
 @media (max-width: 768px) {
     .breadcrumb-item {
         font-size: 14px;
+        display: inline-flex; /* 確保項目水平方向顯示 */
+        flex-direction: row;
     }
     .breadcrumb-item:first-child::after {
         content: " > … > ";  /* 只顯示首頁與最後一項 */
@@ -29,4 +31,5 @@
         flex-wrap: nowrap;
     }
 }
+
 
