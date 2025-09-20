@@ -30,6 +30,7 @@
 
   .breadcrumb-item:last-child a {
     display: inline-block;
+    max-width: 160px; /* 加入最大寬度限制 */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -41,3 +42,4 @@
     flex-wrap: nowrap;
   }
 }
+
